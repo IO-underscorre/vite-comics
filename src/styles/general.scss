@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75,300..800&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+}
+
+menu,
+ul,
+ol {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+a {
+    color: inherit;
+    font-style: normal;
+}
