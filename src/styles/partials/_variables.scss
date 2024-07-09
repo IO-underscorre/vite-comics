@@ -1,3 +1,9 @@
+// Font sizes
+$fnt-size-sm: .75rem;
+$fnt-size: 1rem;
+$fnt-size-lg: 1.25rem;
+
+
 // Colors
 // Text colors
 $clr-text-lt: #ffffff;
@@ -11,3 +17,13 @@ $clr-secondary: #ffffff;
 // Neutral colors
 $clr-neutral-lt: #ffffff;
 $clr-neutral-dk: #1c1c1c;
+
+
+// Dimensions
+// Page elements content max widths
+$wdt-lg: 1300px;
+
+// Fixed height elements heights
+$hgt-top-bar: 7.5rem;
+$hgt-footer-section-navigation: 25rem;
+$hgt-footer-section-socials: 7rem;
