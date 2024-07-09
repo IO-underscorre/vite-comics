@@ -1,13 +1,15 @@
 <script>
 import TopNavigationBar from './components/TopNavigationBar.vue';
 import AppFooter from './components/AppFooter.vue';
+import ComicsUtilitiesSection from './components/ComicsUtilitiesSection.vue';
 
 export default {
   name: 'App',
 
   components: {
     TopNavigationBar,
-    AppFooter
+    AppFooter,
+    ComicsUtilitiesSection
   }
 }
 </script>
@@ -17,7 +19,9 @@ export default {
     <TopNavigationBar />
   </header>
 
-  <main></main>
+  <main>
+    <ComicsUtilitiesSection />
+  </main>
 
   <AppFooter />
 </template>
