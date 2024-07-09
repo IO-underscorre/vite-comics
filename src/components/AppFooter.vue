@@ -1,6 +1,12 @@
 <script>
+import FooterNavigationSection from './FooterNavigationSection.vue';
+
 export default {
     name: 'AppFooter',
+
+    components: {
+        FooterNavigationSection
+    },
 
     data() {
         return {
@@ -44,6 +50,8 @@ export default {
 
 <template>
     <footer>
+        <FooterNavigationSection />
+
         <section class="bottom-socials-bar content-box">
             <a href="#" class="visual-btn">
                 SIGN-UP NOW!
