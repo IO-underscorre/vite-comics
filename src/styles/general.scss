@@ -1,3 +1,6 @@
+@use './src/styles/partials/mixins.scss' as *;
+@use './src/styles/partials/variables.scss' as *;
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@75,300..800&display=swap');
 
 * {
@@ -9,6 +12,7 @@
 :root {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
+    font-size: 16px;
 }
 
 menu,
@@ -23,5 +27,12 @@ img {
 
 a {
     color: inherit;
-    font-style: normal;
+    text-decoration: none;
+}
+
+.content-box {
+    max-width: $wdt-lg;
+    width: 90%;
+    @include horizontal-centering;
+}
 }
