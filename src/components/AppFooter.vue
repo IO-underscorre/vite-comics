@@ -63,7 +63,7 @@ export default {
                 </span>
 
                 <ul>
-                    <li v-for="link in socialLinks">
+                    <li v-for="(link , index) in socialLinks" :key="index">
                         <a :href="link.url">
                             <img :src="this.getFilePath(`../assets/social-icons/${link.iconFileName}`)" :alt="link.social">
                         </a>
