@@ -35,4 +35,19 @@ a {
     width: 90%;
     @include horizontal-centering;
 }
+
+.visual-btn {
+    display: block;
+    padding: 1em .875rem;
+    color: $clr-secondary;
+    border: .125rem solid $clr-primary;
+    font-weight: 600;
+
+    &:hover {
+        background-color: $clr-primary;
+    }
+
+    &:active {
+        filter: brightness(50%);
+    }
 }

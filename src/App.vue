@@ -1,11 +1,13 @@
 <script>
 import TopNavigationBar from './components/TopNavigationBar.vue';
+import AppFooter from './components/AppFooter.vue';
 
 export default {
   name: 'App',
 
   components: {
     TopNavigationBar,
+    AppFooter
   }
 }
 </script>
@@ -14,8 +16,10 @@ export default {
   <header>
     <TopNavigationBar />
   </header>
+
   <main></main>
-  <footer></footer>
+
+  <AppFooter />
 </template>
 
 <style lang="scss">
