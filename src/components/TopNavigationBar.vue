@@ -84,6 +84,7 @@ nav {
     position: fixed;
     top: 0;
     width: 100%;
+    z-index: 100;
     font-weight: 700;
     color: $clr-text-dk;
     background-color: $clr-secondary;

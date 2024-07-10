@@ -3,6 +3,7 @@ import TopNavigationBar from './components/TopNavigationBar.vue';
 import AppFooter from './components/AppFooter.vue';
 import ComicsUtilitiesSection from './components/ComicsUtilitiesSection.vue';
 import AppJumbo from './components/AppJumbo.vue';
+import CurrentSeries from './components/CurrentSeries.vue';
 
 export default {
   name: 'App',
@@ -12,6 +13,7 @@ export default {
     AppFooter,
     ComicsUtilitiesSection,
     AppJumbo,
+    CurrentSeries
   }
 }
 </script>
@@ -24,6 +26,8 @@ export default {
   </header>
 
   <main>
+    <CurrentSeries />
+
     <ComicsUtilitiesSection />
   </main>
 
