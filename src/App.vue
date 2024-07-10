@@ -32,7 +32,8 @@ export default {
 
 <style lang="scss">
 @use './styles/general.scss' as *;
-header{
+
+header {
   padding-top: $hgt-top-bar;
 }
 </style>

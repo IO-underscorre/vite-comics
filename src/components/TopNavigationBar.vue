@@ -69,7 +69,7 @@ export default {
             </a>
 
             <menu>
-                <li :class="{selected: link.isSelected}" v-for="link in navBarLinks">
+                <li :class="{ selected: link.isSelected }" v-for="link in navBarLinks">
                     <a :href="link.url">
                         {{ link.text }}
                     </a>
