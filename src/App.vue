@@ -2,6 +2,7 @@
 import TopNavigationBar from './components/TopNavigationBar.vue';
 import AppFooter from './components/AppFooter.vue';
 import ComicsUtilitiesSection from './components/ComicsUtilitiesSection.vue';
+import AppJumbo from './components/AppJumbo.vue';
 
 export default {
   name: 'App',
@@ -9,7 +10,8 @@ export default {
   components: {
     TopNavigationBar,
     AppFooter,
-    ComicsUtilitiesSection
+    ComicsUtilitiesSection,
+    AppJumbo,
   }
 }
 </script>
@@ -17,6 +19,8 @@ export default {
 <template>
   <header>
     <TopNavigationBar />
+
+    <AppJumbo />
   </header>
 
   <main>
